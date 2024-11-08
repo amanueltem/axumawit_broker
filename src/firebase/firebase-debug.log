@@ -1,0 +1,54 @@
+[debug] [2024-11-05T07:29:32.081Z] ----------------------------------------------------------------------
+[debug] [2024-11-05T07:29:32.084Z] Command:       /home/aman/.nvm/versions/node/v20.11.0/bin/node /home/aman/.nvm/versions/node/v20.11.0/bin/firebase deploy --project eshop-ff20f --only hosting
+[debug] [2024-11-05T07:29:32.084Z] CLI Version:   13.24.0
+[debug] [2024-11-05T07:29:32.084Z] Platform:      linux
+[debug] [2024-11-05T07:29:32.085Z] Node Version:  v20.11.0
+[debug] [2024-11-05T07:29:32.085Z] Time:          Tue Nov 05 2024 10:29:32 GMT+0300 (East Africa Time)
+[debug] [2024-11-05T07:29:32.085Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-05T07:29:32.177Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-05T07:29:32.177Z] > authorizing via signed-in user (amanueltemesgen62@gmail.com)
+[debug] [2024-11-05T07:29:32.177Z] [iam] checking project eshop-ff20f for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-11-05T07:29:32.179Z] Checked if tokens are valid: true, expires at: 1730794331441
+[debug] [2024-11-05T07:29:32.179Z] Checked if tokens are valid: true, expires at: 1730794331441
+[debug] [2024-11-05T07:29:32.180Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/eshop-ff20f:testIamPermissions [none]
+[debug] [2024-11-05T07:29:32.180Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/eshop-ff20f:testIamPermissions x-goog-quota-user=projects/eshop-ff20f
+[debug] [2024-11-05T07:29:32.181Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/eshop-ff20f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-11-05T07:29:42.072Z] ----------------------------------------------------------------------
+[debug] [2024-11-05T07:29:42.075Z] Command:       /home/aman/.nvm/versions/node/v20.11.0/bin/node /home/aman/.nvm/versions/node/v20.11.0/bin/firebase deploy --project eshop-ff20f --only hosting
+[debug] [2024-11-05T07:29:42.075Z] CLI Version:   13.24.0
+[debug] [2024-11-05T07:29:42.075Z] Platform:      linux
+[debug] [2024-11-05T07:29:42.075Z] Node Version:  v20.11.0
+[debug] [2024-11-05T07:29:42.076Z] Time:          Tue Nov 05 2024 10:29:42 GMT+0300 (East Africa Time)
+[debug] [2024-11-05T07:29:42.076Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-05T07:29:42.168Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-05T07:29:42.169Z] > authorizing via signed-in user (amanueltemesgen62@gmail.com)
+[debug] [2024-11-05T07:29:42.169Z] [iam] checking project eshop-ff20f for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-11-05T07:29:42.170Z] Checked if tokens are valid: true, expires at: 1730794331441
+[debug] [2024-11-05T07:29:42.171Z] Checked if tokens are valid: true, expires at: 1730794331441
+[debug] [2024-11-05T07:29:42.172Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/eshop-ff20f:testIamPermissions [none]
+[debug] [2024-11-05T07:29:42.172Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/eshop-ff20f:testIamPermissions x-goog-quota-user=projects/eshop-ff20f
+[debug] [2024-11-05T07:29:42.172Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/eshop-ff20f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-11-05T07:30:18.369Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/eshop-ff20f:testIamPermissions 200
+[debug] [2024-11-05T07:30:18.370Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/eshop-ff20f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-11-05T07:30:18.372Z] Checked if tokens are valid: true, expires at: 1730794331441
+[debug] [2024-11-05T07:30:18.372Z] Checked if tokens are valid: true, expires at: 1730794331441
+[debug] [2024-11-05T07:30:18.373Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/eshop-ff20f [none]
+[debug] [2024-11-05T07:30:29.291Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/eshop-ff20f 200
+[debug] [2024-11-05T07:30:29.292Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/eshop-ff20f {"projectId":"eshop-ff20f","projectNumber":"479476520660","displayName":"eshop","name":"projects/eshop-ff20f","resources":{"hostingSite":"eshop-ff20f","realtimeDatabaseInstance":"eshop-ff20f-default-rtdb","storageBucket":"eshop-ff20f.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_e9d439bc-8f42-418c-9ef4-7e1e8f54a700"}
+[info] 
+[info] === Deploying to 'eshop-ff20f'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2024-11-05T07:30:29.309Z] Checked if tokens are valid: true, expires at: 1730794331441
+[debug] [2024-11-05T07:30:29.309Z] Checked if tokens are valid: true, expires at: 1730794331441
+[debug] [2024-11-05T07:30:29.310Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/eshop-ff20f/versions [none]
+[debug] [2024-11-05T07:30:29.310Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/eshop-ff20f/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2024-11-05T07:30:54.342Z] *** [apiv2] error from fetch(https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/eshop-ff20f/versions, {"headers":{},"method":"POST","body":"{\"status\":\"CREATED\",\"labels\":{\"deployment-tool\":\"cli-firebase\"}}"}): FetchError: request to https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/eshop-ff20f/versions failed, reason: getaddrinfo EAI_AGAIN firebasehosting.googleapis.com
+[debug] [2024-11-05T07:30:59.355Z] Error: Timed out.
+    at Timeout._onTimeout (/home/aman/.nvm/versions/node/v20.11.0/lib/node_modules/firebase-tools/lib/utils.js:268:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
